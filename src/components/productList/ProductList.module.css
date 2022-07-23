@@ -1,0 +1,38 @@
+table,
+tr {
+    border-top: 1px solid #080679;
+    border-bottom: 1px solid #080679;
+    padding: 10px;
+}
+
+td {
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.productList {
+    width: 100%;
+}
+
+.productList table {
+    margin-top: 2%;
+}
+
+.productList table td input {
+    border: 0;
+    outline: 0;
+    font-size: 16px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 1px 5px;
+}
+
+.productList thead {
+    background-color: #8584c4;
+    color: #080679;
+}
+
+.productList button {
+    margin: 5px;
+}

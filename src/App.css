@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: url(./img/bg.png) center center / cover no-repeat;
+}
+
+.App {
+    text-align: center;
+    color: #080679;
+    min-height: 100vh;
+    padding-bottom: 30px;
+}
+
+.nav {
+    padding-top: 15px;
+}
+
+.nav a {
+    display: inline-block;
+    padding: 10px;
+    color: #080679;
+    text-decoration: none;
+}
+
+.nav a:hover {
+    color: #080679;
+}
+
+.main_contain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30px;
+    width: 400px;
+}
+
+.main_contain form {
+    min-width: 400px;
+}
+
+input {
+    background: #8584c4;
+    border: 0;
+    text-align: center;
+    color: #ecefff;
+    height: 30px;
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    outline: 0;
+    padding: 5px;
+}
+
+select {
+    border: 0;
+    border-radius: 5px;
+    outline: 0;
+    text-align: center;
+    background: #8584c4;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 5px;
+
+}
+
+
+
+button {
+    margin-top: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 0;
+    outline: 0;
+    background: #1600bf;
+    height: 40px;
+    color: #ffffff;
+    width: 100%;
+    cursor: pointer;
+}
+
+.line {
+    border-bottom: 1px solid #080679;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.wrap {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 20px;
+
+}

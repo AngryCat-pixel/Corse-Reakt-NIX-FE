@@ -1,0 +1,11 @@
+.product__input {
+    /* border-bottom: 1px solid #000;
+    background-color: #fff; */
+    background: none;
+    color: #1600bf;
+    height: 35px;
+}
+
+.product__input:focus {
+    border-bottom: 2px solid #fff;
+}

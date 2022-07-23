@@ -1,0 +1,10 @@
+label {
+    width: 100%;
+}
+
+label h3 {
+    text-align: center;
+    margin: 15px 0 10px 0;
+    color: #080679;
+    padding: 0;
+}

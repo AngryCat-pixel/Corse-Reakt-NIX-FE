@@ -1,0 +1,11 @@
+.TotalPrice {
+    margin-top: 0;
+    position: fixed;
+    top: 0%;
+    right: 4%;
+}
+
+.TotalPrice p {
+    color: #ff0f0f;
+    font-weight: 900;
+}

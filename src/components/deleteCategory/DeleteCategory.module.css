@@ -1,0 +1,15 @@
+.DeleteCategory table {
+    min-width: 400px;
+    border-top: 1px solid #080679;
+    border-bottom: 1px solid #080679;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+.DeleteCategory h3 {
+    margin: 15px auto;
+}
+
+.DeleteCategory button {
+    margin: 10px;
+}
